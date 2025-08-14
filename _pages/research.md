@@ -510,7 +510,7 @@ layout: wide
 <div id="cs-projects" class="category-section" style="display: none;">
   <div class="projects-grid">
     <!-- CS Project: Symmons Water Management AI Platform -->
-    <div class="project-box" data-tags="artificial-intelligence,machine-learning,generative-ai,computer-science,mlops,iot" data-date="2024-08-15">
+    <div class="project-box" data-tags="artificial-intelligence,machine-learning,generative-ai,computer-science,mlops,iot" data-date="2025-06-15">
       <a href="/projects/symmons-water-management/" class="project-link" aria-label="View Symmons Water Management AI Platform project details"></a>
       <div class="project-image">
         <img src="/assets/images/projects/symmons-water-management.jpg" alt="Symmons Water Management AI Platform Project">
@@ -525,6 +525,25 @@ layout: wide
         <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
         <span class="project-tag" onclick="filterByTag('generative-ai')">Generative AI</span>
         <span class="project-tag" onclick="filterByTag('mlops')">MLOps</span>
+      </div>
+    </div>
+    
+    <!-- CS Project: SideWalk Ballet -->
+    <div class="project-box" data-tags="computer-vision,machine-learning,computer-science,urban-analytics" data-date="2025-05-15">
+      <a href="/projects/sidewalk-ballet/" class="project-link" aria-label="View Sidewalk Ballet project details"></a>
+      <div class="project-image">
+        <img src="/assets/images/projects/sidewalk-ballet.jpg" alt="SideWalk Ballet Project">
+      </div>
+      <div class="project-title">Sidewalk Ballet</div>
+      <div class="project-subtitle">Computer Vision Analysis of Pedestrian Behavior</div>
+      <div class="project-excerpt">
+        Using computer vision to analyze pedestrian behavior patterns from street-level video footage, identifying the relationship between built environment features and social interactions...
+      </div>
+      <div class="project-tags">
+        <span class="project-tag" onclick="filterByTag('computer-vision')">Computer Vision</span>
+        <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
+        <span class="project-tag" onclick="filterByTag('urban-analytics')">Urban Analytics</span>
+        <span class="project-tag" onclick="filterByTag('computer-science')">Computer Science</span>
       </div>
     </div>
     
@@ -562,25 +581,6 @@ layout: wide
         <span class="project-tag" onclick="filterByTag('human-computer-interaction')">HCI</span>
         <span class="project-tag" onclick="filterByTag('mobile-development')">Mobile Dev</span>
         <span class="project-tag" onclick="filterByTag('education-technology')">EdTech</span>
-        <span class="project-tag" onclick="filterByTag('computer-science')">Computer Science</span>
-      </div>
-    </div>
-    
-    <!-- CS Project: SideWalk Ballet -->
-    <div class="project-box" data-tags="computer-vision,machine-learning,computer-science,urban-analytics" data-date="2025-05-15">
-      <a href="/projects/sidewalk-ballet/" class="project-link" aria-label="View Sidewalk Ballet project details"></a>
-      <div class="project-image">
-        <img src="/assets/images/projects/sidewalk-ballet.jpg" alt="SideWalk Ballet Project">
-      </div>
-      <div class="project-title">Sidewalk Ballet</div>
-      <div class="project-subtitle">Computer Vision Analysis of Pedestrian Behavior</div>
-      <div class="project-excerpt">
-        Using computer vision to analyze pedestrian behavior patterns from street-level video footage, identifying the relationship between built environment features and social interactions...
-      </div>
-      <div class="project-tags">
-        <span class="project-tag" onclick="filterByTag('computer-vision')">Computer Vision</span>
-        <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
-        <span class="project-tag" onclick="filterByTag('urban-analytics')">Urban Analytics</span>
         <span class="project-tag" onclick="filterByTag('computer-science')">Computer Science</span>
       </div>
     </div>
@@ -730,8 +730,24 @@ layout: wide
 <script>
   // On page load, ensure the default category is shown
   document.addEventListener('DOMContentLoaded', function() {
-    // Show urban by default
-    showCategory('urban');
+    // Check if we need to activate a specific tag from sessionStorage
+    const activateCategory = sessionStorage.getItem('activateCategory');
+    const activateTag = sessionStorage.getItem('activateTag');
+    
+    if (activateCategory && activateTag) {
+      // Clear the session storage
+      sessionStorage.removeItem('activateCategory');
+      sessionStorage.removeItem('activateTag');
+      
+      // Show the category and filter by tag
+      showCategory(activateCategory);
+      setTimeout(() => {
+        filterByTag(activateTag);
+      }, 100);
+    } else {
+      // Show urban by default
+      showCategory('urban');
+    }
     
     // Attach click handlers to tabs to ensure sorting happens on tab change
     document.querySelectorAll('.nav-tab').forEach(tab => {

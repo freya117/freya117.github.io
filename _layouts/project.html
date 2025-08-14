@@ -18,12 +18,18 @@ layout: default
   }
 
   .project-header .page__subtitle {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
     font-style: italic;
     color: #7a7a7a;
     margin-top: 0;
     margin-bottom: 1em;
+  }
+
+  /* Remove border from first h2 to prevent overlap with meta info */
+  .page__content h2:first-child {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
   }
 
   .project-header .page__meta {
@@ -152,7 +158,7 @@ layout: default
           {% if site.data.ui-text[site.locale].meta_label %}
             <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
           {% endif %}
-          {% include page__taxonomy.html %}
+          {% include project-tags.html %}
           {% include page__date.html %}
         </footer>
 

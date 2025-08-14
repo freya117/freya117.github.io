@@ -1,0 +1,32 @@
+{% if page.tags[0] %}
+  {% assign tags_sorted = page.tags | sort_natural %}
+  
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
+    <span itemprop="keywords">
+    {% for tag_word in tags_sorted %}
+      {% assign tag_slug = tag_word | slugify %}
+      <!-- Determine which category this tag belongs to -->
+      {% assign tag_category = "urban" %}
+      {% if tag_word == "artificial-intelligence" or tag_word == "machine-learning" or tag_word == "generative-ai" or tag_word == "deep-learning" or tag_word == "computer-vision" or tag_word == "mlops" or tag_word == "human-computer-interaction" or tag_word == "mobile-development" or tag_word == "data-science" or tag_word == "education-technology" or tag_word == "computer-science" %}
+        {% assign tag_category = "cs" %}
+      {% elsif tag_word == "urban-design" or tag_word == "ecological-design" or tag_word == "education-design" or tag_word == "public-space" or tag_word == "infrastructure" or tag_word == "economic-development" or tag_word == "social-impact" or tag_word == "community" %}
+        {% assign tag_category = "design" %}
+      {% endif %}
+      
+      <a href="/research/#{{ tag_category }}-{{ tag_slug }}" class="page__taxonomy-item p-category" rel="tag" onclick="navigateToResearchTag('{{ tag_category }}', '{{ tag_word }}'); return false;">{{ tag_word | replace: '-', ' ' | capitalize }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+    {% endfor %}
+    </span>
+  </p>
+
+  <script>
+    function navigateToResearchTag(category, tag) {
+      // Navigate to research page
+      window.location.href = '/research/';
+      
+      // Set a flag to activate the tag filter after page load
+      sessionStorage.setItem('activateCategory', category);
+      sessionStorage.setItem('activateTag', tag);
+    }
+  </script>
+{% endif %}

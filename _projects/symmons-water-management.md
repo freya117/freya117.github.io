@@ -25,7 +25,7 @@ sidebar:
   - title: "Location"
     text: "Braintree, MA"
   - title: "Duration"
-    text: "Summer 2024"
+    text: "Summer 2025"
   - title: "Developed Skills"
     text: "MLOps, AWS SageMaker, Generative AI, LLM integration, IoT data processing"
 gallery:
