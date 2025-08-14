@@ -5,7 +5,7 @@ title: "Symmons Water Management AI Platform"
 subtitle: "AI-Powered Water Conservation & Predictive Maintenance"
 excerpt: "Generative AI and MLOps solution for automated water management, anomaly detection, and predictive maintenance"
 permalink: /projects/symmons-water-management/
-date: 2024-08-15
+date: 2025-06-15
 tags:
   - artificial-intelligence
   - machine-learning

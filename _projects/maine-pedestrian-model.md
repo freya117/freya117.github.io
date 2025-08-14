@@ -5,7 +5,7 @@ title: "Maine DOT Pedestrian Volume Estimation"
 subtitle: "Data-Driven Pedestrian Infrastructure Planning"
 excerpt: "Developing a pedestrian volume model to support infrastructure and safety planning"
 permalink: /projects/maine-pedestrian-model/
-date: 2025-06-10
+date: 2025-08-10
 tags:
   - transportation
   - walkability

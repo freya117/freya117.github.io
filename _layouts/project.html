@@ -28,23 +28,43 @@ layout: default
 
   .project-header .page__meta {
     margin-top: 1em;
-    font-size: 0.85em;
+    font-size: 0.75em;
     color: #888;
+    background: none !important;
   }
 
-  /* Custom pagination styling for project pages - tab-like design */
+  /* Override default page__meta styling for project pages */
+  .page__meta {
+    background: none !important;
+    border: none !important;
+    font-size: 0.75em !important;
+    color: #888 !important;
+    margin-top: 1em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  .page__meta p {
+    background: none !important;
+    margin: 0 !important;
+  }
+
+  /* Custom pagination styling for project pages - inline design */
   .pagination {
-    margin: 1.5em 0 0.5em 0 !important;
+    margin: 1em 0 0.5em 0 !important;
     padding: 0 !important;
     text-align: center;
     border-top: 1px solid #f2f3f3;
     padding-top: 1em !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1em !important;
   }
   
   .pagination--pager {
     display: inline-block;
     padding: 0.4em 0.8em !important;
-    margin: 0 0.8em !important;
+    margin: 0 !important;
     background: none !important;
     color: #0033A0 !important;
     text-decoration: none !important;
@@ -54,6 +74,7 @@ layout: default
     transition: all 0.2s ease !important;
     border-bottom: 2px solid transparent !important;
     position: relative !important;
+    flex: 0 0 auto !important;
   }
   
   .pagination--pager:hover {

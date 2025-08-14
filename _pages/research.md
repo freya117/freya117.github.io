@@ -354,6 +354,25 @@ layout: wide
       </div>
     </div>
     
+    <!-- Urban Research Project: Newark EV Transition -->
+    <div class="project-box" data-tags="urban-planning,sustainability,transportation,energy,urban-analytics" data-date="2025-06-30">
+      <a href="/projects/newark-ev-transition/" class="project-link" aria-label="View Municipal EV Fleet Transition Framework project details"></a>
+      <div class="project-image">
+        <img src="/assets/images/projects/newark-ev-transition.jpg" alt="Newark EV Fleet Transition Project">
+      </div>
+      <div class="project-title">Municipal EV Fleet Transition Framework</div>
+      <div class="project-subtitle">An Analytical Framework for Municipal EV Fleet Transition and Energy Infrastructure Planning in Newark, NJ</div>
+      <div class="project-excerpt">
+        Developing a comprehensive analytical framework to guide Newark's transition to zero-emission municipal fleet, integrating GIS analysis, infrastructure planning, and policy recommendations for equitable transportation electrification...
+      </div>
+      <div class="project-tags">
+        <span class="project-tag" onclick="filterByTag('urban-planning')">Urban Planning</span>
+        <span class="project-tag" onclick="filterByTag('sustainability')">Sustainability</span>
+        <span class="project-tag" onclick="filterByTag('transportation')">Transportation</span>
+        <span class="project-tag" onclick="filterByTag('energy')">Energy</span>
+      </div>
+    </div>
+    
     <!-- Urban Research Project: Maine DOT -->
     <div class="project-box" data-tags="transportation,walkability,urban-analytics,pedestrian-modeling" data-date="2025-06-10">
       <a href="/projects/maine-pedestrian-model/" class="project-link" aria-label="View Maine DOT Pedestrian Volume Estimation project details"></a>

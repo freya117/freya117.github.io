@@ -5,7 +5,7 @@ title: "SideWalk Ballet"
 subtitle: "Detecting Social Activities through Geo-tagged Urban Visual Contents"
 excerpt: "Using large language models to identify and analyze social interactions in urban environments"
 permalink: /projects/sidewalk-ballet/
-date: 2025-05-15
+date: 2025-08-10
 tags:
   - urban-analytics
   - computer-vision
