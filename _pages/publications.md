@@ -36,11 +36,6 @@ header:
     text-align: left !important;
   }
   
-  /* Align hero title with main content on sidebar pages */
-  .page__hero-wrapper {
-    padding-left: 320px; /* 300px sidebar + 20px padding */
-  }
-  
   .publication-item {
     display: flex;
     margin-bottom: 1.5em;

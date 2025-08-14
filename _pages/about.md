@@ -59,11 +59,6 @@ header:
     text-align: left !important;
   }
 
-  /* Align hero title with main content on sidebar pages */
-  .page__hero-wrapper {
-    padding-left: 320px; /* 300px sidebar + 20px padding */
-  }
-
   /* Style for education section */
   .education-item {
     margin-bottom: 1.8em;
@@ -147,6 +142,13 @@ Hi, I'm Freya, a dual-degree graduate student in <a href="https://www.eecs.mit.e
   * Developed a GenAI-driven diagnostic system integrating multi-sensor data, predictive ML outputs, and equipment metadata for automated issue detection and troubleshooting
   * Optimized LLM-driven analytical workflows, enhanced LLM accuracy through prompt engineering, integrating structured domain-specific data
   * Developed efficient tokenization strategies for LLMs using PELT for segmentation, Transformer-based encoding for compression, and LSTM-AE for anomaly preservation
+
+* **Teaching Assistant**, MIT Cybersecurity Clinic (Aug 2025 - Present)
+  *MIT 11.074 / 11.274 | Supervisor: Lawrence Susskind & Jungwoo Chun*
+  * Facilitated student teams' end-to-end process in preparing Cybersecurity Vulnerability Assessments for public agencies and hospitals, including data collection, threat modeling, and mitigation planning
+  * Coordinated and reviewed deliverables including executive summaries, draft assessments, and final vulnerability reports aligned with NIST Cybersecurity Framework standards
+  * Provided technical guidance on network security, supply chain vulnerabilities, vendor risk management, and ransomware readiness
+  * Managed recitations focused on client interview preparation, data analysis workflows, and secure collaboration tools (Dropbox, CISA Toolkit)
 
 * **Data Science Fellow**, City of Newark - Freedom Summer Fellowship (Jun 2025 - Present)  
   *City of Newark – Office of Sustainability & Emerald Cities Collaborative*

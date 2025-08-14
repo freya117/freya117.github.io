@@ -271,6 +271,10 @@ layout: wide
 
 <div id="urban-tags" class="all-tags">
   <div class="tag-filter" data-tag="urban-analytics">Urban Analytics</div>
+  <div class="tag-filter" data-tag="artificial-intelligence">Artificial Intelligence</div>
+  <div class="tag-filter" data-tag="sustainability">Sustainability</div>
+  <div class="tag-filter" data-tag="iot">IoT</div>
+  <div class="tag-filter" data-tag="smart-cities">Smart Cities</div>
   <div class="tag-filter" data-tag="energy">Energy</div>
   <div class="tag-filter" data-tag="transportation">Transportation</div>
   <div class="tag-filter" data-tag="social-equity">Social Equity</div>
@@ -283,9 +287,13 @@ layout: wide
 </div>
 
 <div id="cs-tags" class="all-tags" style="display: none;">
-  <div class="tag-filter" data-tag="computer-vision">Computer Vision</div>
+  <div class="tag-filter" data-tag="artificial-intelligence">Artificial Intelligence</div>
   <div class="tag-filter" data-tag="machine-learning">Machine Learning</div>
+  <div class="tag-filter" data-tag="generative-ai">Generative AI</div>
   <div class="tag-filter" data-tag="deep-learning">Deep Learning</div>
+  <div class="tag-filter" data-tag="computer-vision">Computer Vision</div>
+  <div class="tag-filter" data-tag="mlops">MLOps</div>
+  <div class="tag-filter" data-tag="iot">IoT</div>
   <div class="tag-filter" data-tag="human-computer-interaction">Human-Computer Interaction</div>
   <div class="tag-filter" data-tag="mobile-development">Mobile Development</div>
   <div class="tag-filter" data-tag="data-science">Data Science</div>
@@ -309,21 +317,40 @@ layout: wide
 <div id="urban-projects" class="category-section">
   <div class="projects-grid">
     <!-- Urban Research Project: Newark Heat Resilience -->
-    <div class="project-box" data-tags="urban-planning,climate-resilience,social-equity,urban-analytics" data-date="2025-08-10">
+    <div class="project-box" data-tags="urban-planning,climate-resilience,social-equity,urban-analytics" data-date="2025-08-14">
       <a href="/projects/newark-heat/" class="project-link" aria-label="View Newark Heat Resilience project details"></a>
       <div class="project-image">
         <img src="/assets/images/projects/newark-heat.png" alt="Newark Heat Resilience Project" />
       </div>
       <div class="project-title">Newark Heat Vulnerability &amp; Resilience</div>
-      <div class="project-subtitle">Mapping Urban Heat Islands and Vulnerable Populations</div>
+      <div class="project-subtitle">Newark Cool Roofs Pilot Program</div>
       <div class="project-excerpt">
-        This research maps urban heat islands in Newark, NJ, and identifies neighborhoods with vulnerable populations to prioritize heat resilience interventions and resources...
+        Designing a comprehensive cool roof pilot program for Newark's municipal buildings, integrating energy benchmarking, workforce development, and policy recommendations to combat urban heat island effects...
       </div>
       <div class="project-tags">
         <span class="project-tag" onclick="filterByTag('urban-planning')">Urban Planning</span>
         <span class="project-tag" onclick="filterByTag('climate-resilience')">Climate Resilience</span>
         <span class="project-tag" onclick="filterByTag('social-equity')">Social Equity</span>
         <span class="project-tag" onclick="filterByTag('urban-analytics')">Urban Analytics</span>
+      </div>
+    </div>
+    
+    <!-- Urban Research Project: Symmons Water Management AI Platform -->
+    <div class="project-box" data-tags="artificial-intelligence,urban-planning,sustainability,iot,smart-cities" data-date="2024-08-15">
+      <a href="/projects/symmons-water-management/" class="project-link" aria-label="View Symmons Water Management AI Platform project details"></a>
+      <div class="project-image">
+        <img src="/assets/images/projects/symmons-water-management.jpg" alt="Symmons Water Management AI Platform Project">
+      </div>
+      <div class="project-title">Symmons Water Management AI Platform</div>
+      <div class="project-subtitle">AI-Powered Water Conservation & Predictive Maintenance</div>
+      <div class="project-excerpt">
+        Developed AI-driven water management system for smart buildings, integrating IoT sensors with machine learning to enable proactive water conservation and infrastructure management across urban properties...
+      </div>
+      <div class="project-tags">
+        <span class="project-tag" onclick="filterByTag('artificial-intelligence')">AI</span>
+        <span class="project-tag" onclick="filterByTag('urban-planning')">Urban Planning</span>
+        <span class="project-tag" onclick="filterByTag('sustainability')">Sustainability</span>
+        <span class="project-tag" onclick="filterByTag('iot')">IoT</span>
       </div>
     </div>
     
@@ -463,6 +490,25 @@ layout: wide
 
 <div id="cs-projects" class="category-section" style="display: none;">
   <div class="projects-grid">
+    <!-- CS Project: Symmons Water Management AI Platform -->
+    <div class="project-box" data-tags="artificial-intelligence,machine-learning,generative-ai,computer-science,mlops,iot" data-date="2024-08-15">
+      <a href="/projects/symmons-water-management/" class="project-link" aria-label="View Symmons Water Management AI Platform project details"></a>
+      <div class="project-image">
+        <img src="/assets/images/projects/symmons-water-management.jpg" alt="Symmons Water Management AI Platform Project">
+      </div>
+      <div class="project-title">Symmons Water Management AI Platform</div>
+      <div class="project-subtitle">AI-Powered Water Conservation & Predictive Maintenance</div>
+      <div class="project-excerpt">
+        Developed ML-powered anomaly detection and generative AI system for automated water management, enabling facilities to conserve millions of gallons and reduce operational costs through predictive maintenance...
+      </div>
+      <div class="project-tags">
+        <span class="project-tag" onclick="filterByTag('artificial-intelligence')">AI</span>
+        <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
+        <span class="project-tag" onclick="filterByTag('generative-ai')">Generative AI</span>
+        <span class="project-tag" onclick="filterByTag('mlops')">MLOps</span>
+      </div>
+    </div>
+    
     <!-- CS Project: Gist, Blur, and Attention -->
     <div class="project-box" data-tags="computer-vision,machine-learning,human-computer-interaction,computer-science" data-date="2025-05-10">
       <a href="/projects/gist-blur-attention/" class="project-link" aria-label="View Gist, Blur, and Attention project details"></a>

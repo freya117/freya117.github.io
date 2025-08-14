@@ -2,15 +2,16 @@
 classes: wide
 layout: project
 title: "Advancing Extreme Heat Resilience in Newark"
-subtitle: "Building Climate Resilience in Urban Communities"
-excerpt: "Freedom Summer Fellow Research with City of Newark, Office of Sustainability"
+subtitle: "Newark Cool Roofs Pilot Program"
+excerpt: "Freedom Summer Fellowship 2025 - Designing data-driven cool roof program for climate resilience"
 permalink: /projects/newark-heat/
-date: 2025-08-10
+date: 2025-08-14
 tags:
   - urban-planning
   - climate-resilience
   - social-equity
   - urban-analytics
+  - sustainability
   - ongoing-project
 header:
   teaser: /assets/images/projects/newark-heat.png
@@ -21,93 +22,138 @@ sidebar:
     text: "Freedom Summer Fellow"
   - title: "Partner"
     text: "City of Newark, Office of Sustainability"
-  - title: "Responsibilities"
-    text: "Program design, data analysis, community engagement"
+  - title: "Collaborator"
+    text: "Nicholas Garcia"
+  - title: "Project"
+    text: "Freedom Summer Fellowship 2025"
   - title: "Developed Skills"
-    text: "Climate resilience planning, spatial analysis, community-based research"
+    text: "Climate resilience planning, energy benchmarking, workforce development, policy analysis"
 gallery:
   - url: '/assets/images/projects/newark-heat.png'
     image_path: '/assets/images/projects/newark-heat.png'
     alt: "Newark Heat Resilience"
-    title: "Newark Heat Resilience Planning"
+    title: "Newark Cool Roofs Pilot Program"
 ---
 
-## Project Overview
+## Introduction & Problem Context
 
-This project focuses on advancing climate resilience and mitigating extreme heat and air quality impacts in Newark, NJ. It involves implementing targeted, place-based interventions in ten disadvantaged neighborhoods across Newark's five wards, identified based on need related to urban heat island effects, pollution, and social vulnerability.
+Newark faces a severe and escalating urban heat island (UHI) effect, a critical challenge at the intersection of public health, environmental justice, and urban planning. This issue is driven by several factors: 63% of the city's land area is covered by impervious surfaces, and it has only 15% tree canopy coverage, well below the 40% average for U.S. cities. These conditions contribute to Newark having the **2nd highest UHI in the nation**. Climate projections indicate that average summer temperatures could rise by as much as 6°F by 2050, which could lead to a **55% increase in summer heat-related mortalities**.
 
-Key components include implementing Green Infrastructure (GI), Resilient Small Transit Shelters (RESTS), cooling surfaces, and enhancing community resilience hubs.
+These climate conditions are deeply tied to public health, exacerbating respiratory and cardiovascular complications and placing strain on healthcare infrastructure. Feedback gathered during the Newark Sustainability Unconference confirmed that residents view extreme heat as a growing crisis and explicitly called for tangible cooling solutions. This project was developed to directly address this community-identified need by creating a scalable, data-driven pilot program for implementing cool roofs on municipal buildings.
 
-The project is led by the City of Newark Office of Sustainability (OoS) as the Lead Applicant, with South Ward Environmental Alliance (SWEA) as the Statutory Partner. It is supported by a broad network of Collaborating Entities (CEs), other City departments (like Health, Public Works, Workforce Development, Libraries), and academic institutions (NJIT, Princeton University).
+## Strategic Approach: The Cool Roofs Solution
 
-The project is funded, in part, by an EPA Community Change Grant. The anticipated project duration is 36 months, starting around June 1, 2025, and ending around May 31, 2028.
+A cool roof is a cost-effective, high-impact solution to mitigate urban heat. While traditional dark rooftops can reach 150°F, a cool roof can remain up to **50°F cooler**, leading to a **2.2°F to 5.9°F reduction in indoor temperatures** and lowering air conditioning costs by **10-30%**.
 
-## Background and Motivation
+The Newark Office of Sustainability (OoS) is proposing the **Newark Cool Roof Program**. The program has three primary goals:
 
-Newark faces significant environmental challenges stemming from its industrial legacy and systemic disinvestment, resulting in disproportionate impacts on low-income residents and communities of color. The city experiences a pronounced urban heat island effect, with temperatures up to 9°F hotter in some areas, posing significant health risks like heat-related illnesses.
+1. **Mitigate the UHI effect** in Newark's hottest neighborhoods
+2. **Improve energy efficiency** in residential and municipal buildings  
+3. **Advance workforce development** and create pathways to green jobs
 
-Poor air quality and high asthma rates are also persistent problems. Public transit users, who are often vulnerable populations, lack adequate protection from extreme weather at existing bus stops.
+## Project Scope & Methodology
 
-The project is motivated by the need to address environmental injustices, improve public health, and build climate resilience for those most vulnerable. It aligns with the community vision outlined in the Newark360 Master Plan for a healthier, more equitable, and resilient city.
+The primary objective is to design a comprehensive pilot program that serves as a model for city-wide implementation. The methodology is structured around four core components:
 
-## Research Gap and Innovation
+### Program Design & Partnership
+The pilot's scope involves applying a reflective white coating to the rooftops of municipal buildings. The program is a joint initiative between the OoS and NewarkWorks, ensuring that the investment in climate resilience also creates local green jobs.
 
-The project addresses a gap in achieving community resilience, particularly concerning resilience hubs, by developing clearer messaging and foundational programming. It seeks to pilot innovative, place-based solutions that are resident-informed and customized to neighborhood needs.
+### Site Selection & Analysis
+The initial pilot will target key municipal buildings located in high-need areas: the **Sharpe James/Kenneth A. Gibson (Ironbound) Recreation Center** and the **City of Newark Department of Public Works (DPW) building**. The DPW building, in particular, is a prime candidate due to its large, exposed roof and surrounding asphalt, making it a significant localized heat island.
 
-Innovative technologies like retroreflective surfaces for quick heat mitigation are utilized. The RESTS design incorporates multiple features (green roofs, solar, thermal walls, misting) and surrounding GI, aiming to be a replicable model.
+### Workforce Development
+The program integrates career development opportunities in two phases:
 
-The development of a Resilience Hub Playbook and "plug-and-play" resilience programs (workforce, student success, citizen science) is a strategy to empower communities and scale programming beyond infrastructure.
+- **Phase I**: In the short-term, the OoS and NewarkWorks will employ 3 graduates of their A+ painting program to coat the initial rooftops
+- **Phase II**: In the long-term and with additional funding, the program will train a larger cohort of workforce participants to install cool roofs on additional low-income residences and city buildings
 
-A core innovation is the "whole-of-community" collaborative governance model that integrates stakeholders at all levels in decision-making. Integrating citizen science for hyperlocal data collection and community empowerment is a key approach.
+## Energy Benchmark Analysis
 
-## Methodology
+Energy benchmarking is a foundational step in Newark's broader strategy to combat UHI effects. By systematically evaluating the energy performance of buildings targeted for cool roof retrofits, the City can quantify savings, establish baselines, inform capital improvement decisions, and ensure transparency.
 
-The project utilizes a phased approach for specific interventions like RESTS (Design, Installation, Evaluation). Implementation is guided by a "whole-of-community" approach, fostering collaboration between City departments, CBOs, universities, and residents.
+### Data to be Collected
 
-Key activities include:
-- Installing Green Infrastructure like rain gardens (30 planned) and permeable pavements (28,500 sq ft planned)
-- Tree Planting Initiative: creating 1,750 tree pits and planting 2,000 trees, integrated with a mulching program
-- Deploying 20 RESTS equipped with solar panels, green roofs, thermal walls, and misting features along transit routes
-- Applying Cool Roof coatings on residential and municipal buildings (40,000 sq ft targeted) and installing retroreflective surfaces on specific sites like libraries and potentially playgrounds
-- Retrofitting municipal buildings for energy efficiency and indoor air quality
-- Developing and running workforce development programs (urban forestry, green building skills) and student success programs related to the green economy
-- Implementing citizen science programs for monitoring air quality and temperature using sensors and take-home kits
-- Developing a Resilience Hub Playbook outlining a vision, classification system, and planning guidance for community facilities
-- Strengthening the Heat Preparedness Task Force to integrate community leadership and scale successful strategies
-- Conducting feasibility studies and data analysis to inform project design and evaluate impact
+**Utility Data (monthly)**: Electricity (kWh), peak demand (kW), natural gas (therms), water usage (gallons), and utility costs ($).
 
-## Data Sources
+**Building Characteristics**: Gross floor area, roof type/condition, solar reflectance value (SRI), hours of operation, and occupancy rates.
 
-Existing data sources like UHI indices, tree canopy coverage, social vulnerability indices, and air quality data are used for needs assessment and site selection. Baseline environmental data will be collected through air quality and surface temperature monitoring prior to implementation.
+**Environmental Data**: Ambient air temperature, relative humidity, rooftop surface temperature, roof cooling rate, reflected solar radiation, and stormwater runoff temperature.
 
-Sensors (indoor and outdoor air quality, thermal comfort, weather monitoring stations) will be deployed for real-time and post-implementation data collection. Thermal imaging cameras will be used to measure temperature improvements.
+**Emissions and Financial Inputs**: Regional electricity emission factor, retrofit project costs, and any available grant/rebate offsets.
 
-Data collected through citizen science initiatives will supplement technical monitoring. Qualitative data and feedback will be gathered through community workshops, surveys, feedback mechanisms (QR codes, phone numbers), and engagement sessions.
+**Post-Retrofit Data**: The same metrics will be collected for at least 12 months post-installation.
 
-Performance metrics (outputs and outcomes) will be systematically tracked and reported. Utility data, municipal fleet data, and existing program participation rates (e.g., energy efficiency) are used for planning and evaluation of related initiatives.
+### Key Metrics and Indicators
 
-## Expected Outcomes
+| Category | Metric | Unit | Purpose |
+|----------|---------|------|---------|
+| **Thermal Performance** | Surface Temperature Reduction | °F | Evaluate thermal impact of reflective coating |
+| | Indoor Temperature Reduction | °F | Document occupant comfort gains |
+| | Roof Cooling Rate Improvement | Minutes | Measure speed of rooftop cooling |
+| | Ambient Air Temperature Reduction | °F | Assess localized climate mitigation impact |
+| | Heat Index Reduction | Index | Evaluate changes in perceived temperature |
+| **Energy & Cost** | A/C Usage Reduction | % | Measure change in cooling demand |
+| | Energy Use Intensity (EUI) | kBtu/sq ft/year | Assess energy efficiency by floor area |
+| | Cost Savings | USD ($) | Estimate financial return |
+| | Peak Demand Avoidance | kW | Estimate reduction in peak electricity load |
+| | Monthly Energy Cost Savings | $ | Track operational savings |
+| **GHG & Environmental** | GHG Emissions Reduction | Metric tons CO₂e | Quantify emissions reduction from lower energy use |
+| | Reflected Solar Radiation | W/m² | Evaluate cooling effect through reflectivity |
+| | Stormwater Runoff Temperature Decrease | °F | Track runoff temperature impacts on drainage |
+| **Financial Metrics** | Return on Investment (ROI) | % | Assess financial return on retrofit investment |
+| | Payback Period | Months | Track investment recovery period |
+| **Occupant Comfort** | Thermal Comfort Survey Score | 1–5 scale | Gauge perceived occupant comfort |
+| | Outdoor Activity Duration Increase | Minutes/day | Assess change in recreational behavior |
 
-- Reduced exposure to extreme heat and poor air quality for vulnerable populations in target neighborhoods
-- Improved public health outcomes, such as reduced heat-related illnesses and asthma attacks
-- Lowered localized temperatures and mitigation of urban heat island effects through green infrastructure and cooling surfaces
-- Enhanced community resilience to climate hazards, including heat and flooding
-- Increased energy efficiency in buildings and broader adoption of clean energy technologies (solar, cool roofs, EVs)
-- Creation of green jobs and expanded workforce capacity for residents in sustainable sectors
-- Strengthened community empowerment and engagement in climate action and decision-making processes
-- Development of replicable models and resources (Technical Manuals, Playbook) to facilitate scaling of interventions citywide and beyond
-- Improved stormwater management and reduced combined sewer overflows (CSOs)
-- Potential energy cost savings for residents and the City
-- Increased access to fresh food and support for urban agriculture initiatives in related OoS work
+### Benchmarking Tools and Platforms
+The city may use the **U.S. EPA's ENERGY STAR® Portfolio Manager** for energy tracking. Additional tools will include ArcGIS for spatial mapping, Excel-based models for load estimation, infrared thermal imaging for documenting temperature reductions, and smart environmental sensors where available. A standardized **Newark_Cool_Roof_Metrics_Template.xlsx** will be used for consistent data input and calculation.
+
+### Verification and Reporting Framework
+- **Baseline Establishment**: A robust, weather-normalized pre-retrofit baseline will be established for each building using 12–24 months of historical data
+- **Post-Retrofit Tracking**: Performance will be tracked for at least 12 months post-installation using the same data sources and intervals
+- **Performance Evaluation**: Results will be evaluated using the standardized metrics framework to compare pre- and post-retrofit performance
+- **Public Transparency**: Findings will be documented in internal reports and shared publicly through summary dashboards on the OoS website or municipal open data portals
+
+## Key Deliverables & Policy Integration
+
+Beyond the physical retrofits, the project will produce two key deliverables:
+
+### Standardized Metrics Template
+An Excel-based tool to ensure consistent data collection and automate the calculation of KPIs. This provides a robust system for measuring and communicating success.
+
+### Building Code Integration Proposal
+To ensure long-term impact, the OoS proposes introducing a cool roof requirement for new and significantly renovated rooftops into the City's building code. Drawing inspiration from Chicago and New York City, the proposed standard for low-sloped roofs is a **minimum initial Solar Reflective Index (SRI) of .70** and a **minimum thermal emittance of .75**, or a **minimum SRI of .80**.
+
+## Implementation Plan & Next Steps
+
+A phased implementation plan will guide the project from planning to execution:
+
+### Short-Term (0-3 Months)
+- Finalize the pilot building list
+- Confirm data collection methods  
+- Secure the project budget
+
+### Mid-Term (4-12 Months)
+- Install the cool roof retrofits on the pilot buildings
+- Begin post-installation data collection and occupant surveys
+
+### Long-Term (12+ Months)
+- Complete a full year of post-retrofit data collection
+- Prepare a final benchmarking report
+- Integrate findings into a broader citywide heat resilience strategy
+
+## Conclusion & Expected Impact
+
+The Newark Cool Roof Program is part of a layered, multi-pronged approach led by the OoS to create a cooler city, which also includes tree planting, green infrastructure, and urban agriculture initiatives. By successfully implementing this pilot, the city can achieve quantifiable reductions in building energy consumption, lower indoor temperatures, and improve occupant comfort. 
+
+More importantly, this project will serve as a powerful and visible demonstration of Newark's commitment to climate resilience, creating a scalable model that can be replicated across the city to build a healthier, more equitable future for all residents.
 
 ## Applications and Future Work
 
-The project's deliverables, including the RESTS Technical Manual and the Resilience Hub Playbook, are designed to serve as replicable frameworks for implementing similar projects in other areas of Newark and potentially other municipalities.
+The developed methodology and tools from this pilot program have broader applications:
 
-The workforce development curricula will be packaged and available for future training programs, creating a sustainable pipeline of skilled workers for the green economy. The citizen science program establishes long-term community capacity for environmental monitoring and advocacy.
-
-The "whole-of-community" governance model and strengthened partnerships are intended to sustain collaborative decision-making and implementation beyond the grant period. The City plans to integrate project maintenance (e.g., RESTS) into its capital budget and existing operations.
-
-Successful pilot projects will be leveraged to attract additional funding from public and private sources for scaling initiatives. Data collected and lessons learned will inform future updates to City plans and policies, such as the Heat Preparedness Plan, energy strategies, zoning regulations, and green infrastructure standards.
-
-The project aims to serve as a model for scalable, community-driven climate resilience initiatives for other cities.
+- **Citywide Scaling**: The standardized metrics template and implementation framework can be applied across Newark's municipal and residential building stock
+- **Policy Development**: The building code integration proposal provides a pathway for mandating cool roofs in new construction and major renovations
+- **Workforce Development**: The training programs can be expanded to create a sustainable pipeline of skilled workers for the green economy
+- **Regional Replication**: Other cities facing similar urban heat challenges can adapt Newark's approach and tools
+- **Research Advancement**: The comprehensive data collection will contribute to the broader understanding of cool roof effectiveness in dense urban environments

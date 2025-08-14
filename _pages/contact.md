@@ -68,11 +68,6 @@ header:
     text-align: left !important;
   }
 
-  /* Align hero title with main content on sidebar pages */
-  .page__hero-wrapper {
-    padding-left: 320px; /* 300px sidebar + 20px padding */
-  }
-
   /* Style for contact links */
   .contact-info {
     margin-bottom: 1.5em;
@@ -104,15 +99,6 @@ I'm always interested in research collaborations, speaking opportunities, or dis
 
 - [freya117@mit.edu](mailto:freya117@mit.edu)  
 - [freyatan117@gmail.com](mailto:freyatan117@gmail.com)
-
-### Professional Address
-
-<div class="address">
-Massachusetts Institute of Technology<br>
-77 Massachusetts Ave<br>
-Cambridge, MA 02139<br>
-United States
-</div>
 
 ### Contact Form
 
