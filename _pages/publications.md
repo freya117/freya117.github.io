@@ -14,21 +14,26 @@ header:
     padding-top: 0;
   }
   
-  /* Hide the regular page title but keep header title */
-  .page__content .page__title {
-    display: none;
+  /* Style the page title to align with content */
+  .page__title {
+    color: #0033A0 !important;
+    font-size: 1.8em !important;
+    font-weight: bold !important;
+    margin-bottom: 1em !important;
+    margin-top: 0 !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    max-width: 1024px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   
-  /* Ensure header title is styled elegantly and aligned left */
-  .page__hero .page__title,
-  .page__hero-overlay .page__title {
-    display: inline-block !important;
-    color: #0033A0 !important;
-    text-shadow: none !important;
-    font-size: 1.1em !important;
-    font-weight: bold !important;
-    border-bottom: 3px solid #0033A0 !important;
-    padding-bottom: 0.3em !important;
+  /* Remove any border/underline from title links */
+  .page__title a {
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
   
   /* Make header much more compact */

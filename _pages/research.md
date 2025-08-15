@@ -290,6 +290,7 @@ layout: wide
   <div class="tag-filter" data-tag="artificial-intelligence">Artificial Intelligence</div>
   <div class="tag-filter" data-tag="machine-learning">Machine Learning</div>
   <div class="tag-filter" data-tag="generative-ai">Generative AI</div>
+  <div class="tag-filter" data-tag="llm">LLM</div>
   <div class="tag-filter" data-tag="deep-learning">Deep Learning</div>
   <div class="tag-filter" data-tag="computer-vision">Computer Vision</div>
   <div class="tag-filter" data-tag="mlops">MLOps</div>
@@ -298,7 +299,6 @@ layout: wide
   <div class="tag-filter" data-tag="mobile-development">Mobile Development</div>
   <div class="tag-filter" data-tag="data-science">Data Science</div>
   <div class="tag-filter" data-tag="education-technology">Education Technology</div>
-  <div class="tag-filter" data-tag="computer-science">Computer Science</div>
   <div class="clear-filters">Clear filters</div>
 </div>
 
@@ -336,7 +336,7 @@ layout: wide
     </div>
     
     <!-- Urban Research Project: Symmons Water Management AI Platform -->
-    <div class="project-box" data-tags="artificial-intelligence,urban-planning,sustainability,iot,smart-cities" data-date="2024-08-15">
+    <div class="project-box" data-tags="artificial-intelligence,urban-planning,sustainability,iot,smart-cities" data-date="2025-06-15">
       <a href="/projects/symmons-water-management/" class="project-link" aria-label="View Symmons Water Management AI Platform project details"></a>
       <div class="project-image">
         <img src="/assets/images/projects/symmons-water-management.jpg" alt="Symmons Water Management AI Platform Project">
@@ -529,7 +529,7 @@ layout: wide
     </div>
     
     <!-- CS Project: SideWalk Ballet -->
-    <div class="project-box" data-tags="computer-vision,machine-learning,computer-science,urban-analytics" data-date="2025-05-15">
+    <div class="project-box" data-tags="computer-vision,machine-learning,llm,urban-analytics" data-date="2025-05-15">
       <a href="/projects/sidewalk-ballet/" class="project-link" aria-label="View Sidewalk Ballet project details"></a>
       <div class="project-image">
         <img src="/assets/images/projects/sidewalk-ballet.jpg" alt="SideWalk Ballet Project">
@@ -542,8 +542,8 @@ layout: wide
       <div class="project-tags">
         <span class="project-tag" onclick="filterByTag('computer-vision')">Computer Vision</span>
         <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
+        <span class="project-tag" onclick="filterByTag('llm')">LLM</span>
         <span class="project-tag" onclick="filterByTag('urban-analytics')">Urban Analytics</span>
-        <span class="project-tag" onclick="filterByTag('computer-science')">Computer Science</span>
       </div>
     </div>
     
@@ -606,7 +606,7 @@ layout: wide
     </div>
     
     <!-- CS Project: Fragmented Network Topology -->
-    <div class="project-box" data-tags="machine-learning,deep-learning,computer-science,data-science" data-date="2025-03-12">
+    <div class="project-box" data-tags="machine-learning,llm,deep-learning,data-science" data-date="2025-03-12">
       <a href="/projects/fragmented-network-topology/" class="project-link" aria-label="View Fragmented Network Topology project details"></a>
       <div class="project-image">
         <img src="/assets/images/projects/network-topology.jpg" alt="Fragmented Network Topology Project">
@@ -618,8 +618,8 @@ layout: wide
       </div>
       <div class="project-tags">
         <span class="project-tag" onclick="filterByTag('machine-learning')">Machine Learning</span>
+        <span class="project-tag" onclick="filterByTag('llm')">LLM</span>
         <span class="project-tag" onclick="filterByTag('deep-learning')">Deep Learning</span>
-        <span class="project-tag" onclick="filterByTag('computer-science')">Computer Science</span>
         <span class="project-tag" onclick="filterByTag('data-science')">Data Science</span>
       </div>
     </div>

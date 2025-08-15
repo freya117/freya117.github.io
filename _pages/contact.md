@@ -15,6 +15,28 @@ header:
     margin-top: 0 !important;
   }
   
+  /* Style the page title to align with content */
+  .page__title {
+    color: #0033A0 !important;
+    font-size: 1.8em !important;
+    font-weight: bold !important;
+    margin-bottom: 1em !important;
+    margin-top: 0 !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    max-width: 1024px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Remove any border/underline from title links */
+  .page__title a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
+  
   /* Make headings slightly smaller too and blue */
   .page__content h2 {
     font-size: 1.25em;

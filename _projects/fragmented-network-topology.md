@@ -8,8 +8,8 @@ date: 2025-03-12
 tags:
   - machine-learning
   - llm
-  - computer-science
-  - urban-planning
+  - deep-learning
+  - data-science
   - network-analysis
 header:
   teaser: /assets/images/projects/network-topology.jpg

@@ -7,10 +7,10 @@ excerpt: "Using large language models to identify and analyze social interaction
 permalink: /projects/sidewalk-ballet/
 date: 2025-08-10
 tags:
-  - urban-analytics
   - computer-vision
-  - social-equity
-  - urban-planning
+  - machine-learning
+  - llm
+  - urban-analytics
   - ongoing-project
 header:
   teaser: /assets/images/projects/sidewalk-ballet.jpg

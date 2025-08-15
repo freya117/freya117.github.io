@@ -8,7 +8,7 @@
       {% assign tag_slug = tag_word | slugify %}
       <!-- Determine which category this tag belongs to -->
       {% assign tag_category = "urban" %}
-      {% if tag_word == "artificial-intelligence" or tag_word == "machine-learning" or tag_word == "generative-ai" or tag_word == "deep-learning" or tag_word == "computer-vision" or tag_word == "mlops" or tag_word == "human-computer-interaction" or tag_word == "mobile-development" or tag_word == "data-science" or tag_word == "education-technology" or tag_word == "computer-science" %}
+      {% if tag_word == "artificial-intelligence" or tag_word == "machine-learning" or tag_word == "generative-ai" or tag_word == "llm" or tag_word == "deep-learning" or tag_word == "computer-vision" or tag_word == "mlops" or tag_word == "human-computer-interaction" or tag_word == "mobile-development" or tag_word == "data-science" or tag_word == "education-technology" %}
         {% assign tag_category = "cs" %}
       {% elsif tag_word == "urban-design" or tag_word == "ecological-design" or tag_word == "education-design" or tag_word == "public-space" or tag_word == "infrastructure" or tag_word == "economic-development" or tag_word == "social-impact" or tag_word == "community" %}
         {% assign tag_category = "design" %}
