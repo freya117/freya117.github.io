@@ -220,6 +220,26 @@ header:
 
 <div class="publication-item">
   <div class="publication-image">
+    <img src="/assets/images/publications/mingle-placeholder.jpg" alt="MINGLE publication">
+  </div>
+  <div class="publication-content">
+    <h4>
+        MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes
+    </h4>
+  <div class="publication-authors">
+      Liu Liu, Alexandra Kudaeva, Marco Cipriano, Fatimeh Al Ghannam, <strong>Freya Tan</strong>, Gerard de Melo, Andres Sevtsuk
+  </div>
+  <div class="publication-venue">
+      AAAI 2026, arXiv preprint arXiv:2509.13484 (2025)
+  </div>
+  <div class="publication-links">
+      <a href="https://arxiv.org/abs/2509.13484" target="_blank">[arXiv]</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
     <a href="/projects/gist-blur-attention/" target="_blank">
       <img src="/assets/images/publications/sidewalk-moments-placeholder.jpg" alt="SIDEWALK MOMENTS publication">
     </a>
@@ -256,26 +276,6 @@ header:
   <div class="publication-venue">
       HCI International 2026 Under Review (2025)
   </div>
-  </div>
-</div>
-
-<div class="publication-item">
-  <div class="publication-image">
-    <img src="/assets/images/publications/mingle-placeholder.jpg" alt="MINGLE publication">
-  </div>
-  <div class="publication-content">
-    <h4>
-        MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes
-    </h4>
-  <div class="publication-authors">
-      Liu Liu, Alexandra Kudaeva, Marco Cipriano, Fatimeh Al Ghannam, <strong>Freya Tan</strong>, Gerard de Melo, Andres Sevtsuk
-  </div>
-  <div class="publication-venue">
-      AAAI 2026, arXiv preprint arXiv:2509.13484 (2025)
-  </div>
-  <div class="publication-links">
-      <a href="https://arxiv.org/abs/2509.13484" target="_blank">[arXiv]</a>
-    </div>
   </div>
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: "AI for Sustainable Urban Energy Systems"
 permalink: /courses/ai-urban-energy/
-layout: single
-author_profile: true
+layout: wide
+author_profile: false
 header:
   overlay_color: "#ffffff"
 ---
@@ -306,6 +306,25 @@ Learning here is interactive by design. Most sessions include moments to think i
   <p><strong>How class prepares you:</strong> Templates and examples for code reviews; instructor-modeled critique; short practice rounds.</p>
 </div>
 
+## Course Calendar
+
+| Week | Topics/Focus | In-Class Activities | Lab/Studio | Deliverables (Due) |
+|------|-------------|---------------------|------------|-------------------|
+| 1 | Course on-ramp & ethics | Syllabus overview; AI-in-energy landscape; risk, bias & equity; Python refreshers | Environment setup & reproducibility checks | |
+| 2 | Urban energy data & measurement | Data sources (AMI, BMS, DER, weather); data quality; feature engineering | Data audit & cleaning pipeline | |
+| 3 | Time-series forecasting I | Baselines; splits; metrics (MAE/RMSE); classical models | Day-ahead building load forecasting | |
+| 4 | Time-series forecasting II (ML/DL) | Gradient boosting; sequence models; uncertainty quantification | Model selection & validation pipeline | Project Proposal |
+| 5 | Solar & wind forecasting; weather alignment | Weather features; spatial effects | PV power forecasting with probabilistic outputs | |
+| 6 | Building energy modeling & analytics | Physics-informed vs. black-box; FDD concepts | Anomaly detection on BMS data | |
+| 7 | Midterm studio & communication | Writing for stakeholders; model cards; reproducibility | Methods studio & peer critique | Midterm Methods Memo |
+| 8 | Optimization & DER scheduling | Linear/convex formulations; tariffs; robustness | cvxpy: battery + demand-charge minimization | Project Milestone |
+| 9 | Demand response & reinforcement learning | Control horizons; safety; offline RL basics | Simulated DR control | |
+| 10 | EV charging & distribution impacts | Depot vs. public; fairness; transformer limits | Stochastic scheduling for EV fleets | |
+| 11 | Microgrids & resilience | Islanding; contingency planning; unit commitment | Microgrid unit commitment (toy model) | |
+| 12 | Scaling & MLOps for cities | Pipelines; monitoring; drift; security | Project peer critique (studio) | |
+| 13 | Policy, procurement, and standards | Working with utilities/cities; data-sharing; privacy law | Cost–benefit & uncertainty communication | |
+| 14 | Project demos & synthesis | Demos; course synthesis; retrospective | Final presentations | Final Report; Demo; Stakeholder Brief |
+
 ## Grading Philosophy & Procedures
 
 - **Transparency:** Every assignment comes with a rubric you see in advance. Exemplars posted when available.
@@ -352,23 +371,3 @@ Support for undergraduate and graduate students is available through the [doingw
 - Urgent Care @MIT Medical [617-253-1311]
 - ULifeline Crisis Text Line [Text: "START" to 741-741]
 - MIT Police [617-253-1212]
-
-## Course Calendar
-
-| Week | Topics/Focus | In-Class Activities | Lab/Studio | Deliverables (Due) |
-|------|-------------|---------------------|------------|-------------------|
-| 1 | Course on-ramp & ethics | Syllabus overview; AI-in-energy landscape; risk, bias & equity; Python refreshers | Environment setup & reproducibility checks | |
-| 2 | Urban energy data & measurement | Data sources (AMI, BMS, DER, weather); data quality; feature engineering | Data audit & cleaning pipeline | |
-| 3 | Time-series forecasting I | Baselines; splits; metrics (MAE/RMSE); classical models | Day-ahead building load forecasting | |
-| 4 | Time-series forecasting II (ML/DL) | Gradient boosting; sequence models; uncertainty quantification | Model selection & validation pipeline | Project Proposal |
-| 5 | Solar & wind forecasting; weather alignment | Weather features; spatial effects | PV power forecasting with probabilistic outputs | |
-| 6 | Building energy modeling & analytics | Physics-informed vs. black-box; FDD concepts | Anomaly detection on BMS data | |
-| 7 | Midterm studio & communication | Writing for stakeholders; model cards; reproducibility | Methods studio & peer critique | Midterm Methods Memo |
-| 8 | Optimization & DER scheduling | Linear/convex formulations; tariffs; robustness | cvxpy: battery + demand-charge minimization | Project Milestone |
-| 9 | Demand response & reinforcement learning | Control horizons; safety; offline RL basics | Simulated DR control | |
-| 10 | EV charging & distribution impacts | Depot vs. public; fairness; transformer limits | Stochastic scheduling for EV fleets | |
-| 11 | Microgrids & resilience | Islanding; contingency planning; unit commitment | Microgrid unit commitment (toy model) | |
-| 12 | Scaling & MLOps for cities | Pipelines; monitoring; drift; security | Project peer critique (studio) | |
-| 13 | Policy, procurement, and standards | Working with utilities/cities; data-sharing; privacy law | Cost–benefit & uncertainty communication | |
-| 14 | Project demos & synthesis | Demos; course synthesis; retrospective | Final presentations | Final Report; Demo; Stakeholder Brief |
-
