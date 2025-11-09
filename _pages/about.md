@@ -175,6 +175,11 @@ Hi, I'm Freya, a dual-degree graduate student in <a href="https://www.eecs.mit.e
 
 ## Research Experience
 
+* **Research Assistant**, MIT Computer Science and Artificial Intelligence Lab (CSAIL) (Aug 2025 - Present)
+  *Norman B. Leventhal Center for Advanced Urbanism (LCAU), Prof. Randall Davis (CSAIL), Prof. Takehiko Nagakura*
+  * Architected a modular testing workflow for LLM/VLM spatial intelligence, a pipeline with a geo-verifier and principled abstention, integrating geometry and vision tools so spatial understanding and editing are judged by executable constraints
+  * Built GeoSense-LLM, an open benchmark for cross-modal spatial evaluation, curated a structured task-and-dataset system with algorithmic ground truth, objective metrics, and end-to-end tooling for rigorous method comparison and urban-AI applications
+
 * **Research Assistant**, MIT City Form Lab, Prof. Andres Sevtsuk (Sep 2024 - Present)
     * Applied Multimodal Model (LLaVA, Qwen2-VL) to detect and analyze social behavior and group from labeled 80k street view images with time stamps in NYC
     * Building and developing scalable data pipelines to process and integrate 150k+ pedestrian trajectories with 169k road network segments, optimizing graph-based pedestrian route choice model

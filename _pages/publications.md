@@ -196,6 +196,30 @@ header:
 
 <div class="publication-item">
   <div class="publication-image">
+    <a href="/projects/neighborhood-archetypes/" target="_blank">
+      <img src="/assets/images/publications/neighborhood-archetype-placeholder.jpg" alt="Automated Neighborhood Archetype publication">
+    </a>
+  </div>
+  <div class="publication-content">
+    <h4>
+      <a href="/projects/neighborhood-archetypes/" target="_blank">
+        Automated Neighborhood Archetypes: Integrating Urban Morphology and Topology for Scalable Urban Building Energy Modeling
+      </a>
+    </h4>
+  <div class="publication-authors">
+      Xinwei Zhuang, <strong>Freya Tan</strong>
+  </div>
+  <div class="publication-venue">
+      Energy & Buildings, Under Review (2025)
+  </div>
+  <div class="publication-links">
+      <a href="/projects/neighborhood-archetypes/" target="_blank">[Project Page]</a>
+  </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
     <a href="/projects/gist-blur-attention/" target="_blank">
       <img src="/assets/images/publications/sidewalk-moments-placeholder.jpg" alt="SIDEWALK MOMENTS publication">
     </a>
@@ -203,14 +227,14 @@ header:
   <div class="publication-content">
     <h4>
       <a href="/projects/gist-blur-attention/" target="_blank">
-        Sidewalk Moments: Exploring the Impact of Built Environment on Attraction via Continuous Visual Experiences
+        Sidewalk Moments: Decompose visual impressions based on dynamic city walk video footage
       </a>
     </h4>
   <div class="publication-authors">
-      Liu Liu, <strong>Freya Tan</strong>, Fábio Duarte, and Carlo Ratti
+      Liu Liu, <strong>Freya Tan</strong>, Fabio Duarte
   </div>
   <div class="publication-venue">
-      (In preparation)
+      American Association of Geographers 2026 (AAG) (2025)
   </div>
   <div class="publication-links">
       <a href="/projects/gist-blur-attention/" target="_blank">[Project Page]</a>
@@ -220,25 +244,38 @@ header:
 
 <div class="publication-item">
   <div class="publication-image">
-    <a href="/projects/neighborhood-archetypes/" target="_blank">
-      <img src="/assets/images/publications/neighborhood-archetype-placeholder.jpg" alt="Automated Neighborhood Archetype publication">
-    </a>
+    <img src="/assets/images/publications/beyond-prompts-placeholder.jpg" alt="Beyond Prompts publication">
   </div>
   <div class="publication-content">
     <h4>
-      <a href="/projects/neighborhood-archetypes/" target="_blank">
-        Automated Neighborhood Archetype: Integrating Morphology and Topology for Urban Building Energy Modeling
-      </a>
+        Beyond Prompts: A reference-based interaction framework for generative AI in design fields
     </h4>
   <div class="publication-authors">
-      Xinwei Zhuang, <strong>Freya Tan</strong>, Luisa Caldas
+      Rohit Sanatani, Richa Gupta, <strong>Freya Tan</strong>, Randall Davis, Takehiko Nagakura
   </div>
   <div class="publication-venue">
-      (In preparation)
+      HCI International 2026 Under Review (2025)
+  </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
+    <img src="/assets/images/publications/mingle-placeholder.jpg" alt="MINGLE publication">
+  </div>
+  <div class="publication-content">
+    <h4>
+        MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes
+    </h4>
+  <div class="publication-authors">
+      Liu Liu, Alexandra Kudaeva, Marco Cipriano, Fatimeh Al Ghannam, <strong>Freya Tan</strong>, Gerard de Melo, Andres Sevtsuk
+  </div>
+  <div class="publication-venue">
+      AAAI 2026, arXiv preprint arXiv:2509.13484 (2025)
   </div>
   <div class="publication-links">
-      <a href="/projects/neighborhood-archetypes/" target="_blank">[Project Page]</a>
-  </div>
+      <a href="https://arxiv.org/abs/2509.13484" target="_blank">[arXiv]</a>
+    </div>
   </div>
 </div>
 
